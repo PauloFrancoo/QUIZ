@@ -1,0 +1,72 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(90deg,rgb(230, 228, 233) 0%, rgb(236, 213, 7)100%);
+}
+body h2{
+    color: white;
+}
+main{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    gap: 10px;
+}
+.spnQtde{
+    text-align: end;
+}
+.question{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+   
+    
+}
+button{
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #008ccc;
+    color: white;
+}
+.finish{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.finish button{
+    text-align: center;
+}
+.true{
+    color: crimson;
+}
+
+    
